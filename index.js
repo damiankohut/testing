@@ -11,7 +11,7 @@ app.use(express.json());
 // app.disable('view cache');
 
 //router
-app.get("/", (req, res) => {
+app.get("/test", (req, res) => {
   res.send("hw");
 });
 
